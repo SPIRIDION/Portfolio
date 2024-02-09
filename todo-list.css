@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(207, 163, 43);
+  font-family: 'Kalam', cursive;
+  padding-top: 50px;
+  display: flexbox; 
+  text-align: center;
+}
+
+.text-input {
+  font-size: 22px;
+  font-family: 'Kalam', cursive;
+  padding-left: 10px;
+}
+
+.date-input {
+  font-size: 22px;
+  font-family: 'Kalam', cursive;
+}
+
+.list-container,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 400px 150px 100px;
+  column-gap:10px ;
+  row-gap: 10px;
+  margin-top: 10px;
+  text-align: start;
+  align-items: center;
+}
+
+.todo-input-grid {
+  align-items: stretch;
+}
+
+.general {
+  display: inline-block;
+}
+
+.title {
+  font-size: 55px;
+}
+
+.save-button {
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  font-family: 'Kalam', cursive;
+  border: none;
+  cursor: pointer;
+}
+
+.save-button:active {
+  background-color: rgb(5, 61, 5);
+}
+
+.delete-button {
+  background-color: rgb(187, 30, 30);
+  color: white;
+  font-size: 22px;
+  font-family: 'Kalam', cursive;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:active {
+  background-color: rgb(93, 10, 10);
+}
+
+.outputs {
+  font-size: 20px;
+}
