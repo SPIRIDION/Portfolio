@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="expense-tracker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="general">
+
+      <div class="header">
+        <p class="title">Expense Tracker</p>
+        <p class="saldo">Saldo</p>
+        <p class="output-saldo js-output-saldo">500</p>
+      </div>
+
+      <div class="middle">
+        <div class="middle-div">
+          <input class="transaction js-transaction" placeholder="Insert the amount...">
+        </div>
+        <div class="middle-div">
+          <input class="description js-description" placeholder="Description...">
+        </div>
+        <div class="middle-div">
+          <button class="add-button" onclick="
+            addTransaction()
+            ">Add</button>
+        </div>
+      </div>
+
+      <div class="separation"></div>
+
+      <div class="advice">
+        If you are not sure of an expense, please press the Delete button to remove it from the list.
+      </div>
+
+      <div class="footer-div">
+        <div class="output-text js-output-text"></div>
+      </div>
+
+    </div>
+    
+    <script src="expense-tracker.js"></script>
+  </body>
+</html>
